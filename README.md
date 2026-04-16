@@ -79,3 +79,20 @@ The interpreter supports both **static scoping** and **dynamic scoping**, along 
 1. Create a virtual environment:
    ```bash
    python3 -m venv .venv
+
+2. Activate the virtual environment:
+   source .venv/bin/activate   # macOS/Linux
+   .venv\Scripts\activate      # Windows
+
+3. Install dependencies:
+   pip install pytest
+
+## Running the Interpreter
+
+1. Start the interactive REPL:
+   python3 psip.py
+
+## Running Tests
+
+1. Execute the test suite using:
+   pytest psip_test.py
